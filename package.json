@@ -1,0 +1,20 @@
+{
+  "name": "safe-wallet-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test-v5": "node src/test-v5.js"
+  },
+  "dependencies": {
+    "@safe-global/api-kit": "^3.0.0",
+    "@safe-global/protocol-kit": "^6.1.0",
+    "@safe-global/types-kit": "^2.0.0",
+    "ethers": "^5.7.2",
+    "viem": "^2.33.1"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.1"
+  }
+}
